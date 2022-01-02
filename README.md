@@ -46,13 +46,13 @@ Deux portfolios ont attiré mon attention par leur sobriété et simplicité :
 - Celui de [Matt Farley](https://mattfarley.ca/) notamment pour la version Mobile.
 - Et celui de [Timmy O'Mahony](https://timmyomahony.com/) pour sa version Desktop.
 
-J'ai décidé de structuré mon portfolio sur 2 pages. 
-1. Une page de présentation avec des informations sur qui je suis, ce que je fais actuellement comme projet et comment me contacter
+J'ai décidé de structurer mon portfolio sur 2 pages. 
+1. Une page de présentation avec des informations sur qui je suis, ce que je fais actuellement comme projet et comment me contacter.
 2. Une page plus détaillée sur mon parcours, mes expériences, etc...
 
 ## Les rubriques du CV
 
-La 1ère page de mon portfolo sera composés des rubriques suivantes :
+La 1ère page de mon portfolo sera composée des rubriques suivantes :
 
 1. **Un nav** : Une barre de navigation simple avec seulement 3 liens :
 - Contact
@@ -83,9 +83,11 @@ Formulaire de contact.
 7. **Footer** :
 Pied de page 
 
+La seconde page de mon portfolo reprendrai les rubriques **"expérience"**, **"compétences"** et **"formation"** en y ajouter une rubrique **"passions"** qui donnera plus d'informations sur mes hobbies, mes passe-temps et mes passions.
+
 ## Mise en forme
-- Insertion de photographies et d’icônes 
-- Ajout de couleurs pour le texte directement dans le code HTML pour rendre le CV plus lisible (ex```<h2 style="color: blue;">Informations personnelles</h2>```). Cette mise en forme a été supprimée car elle ne respectait pas les directives du brief.
+- Insertion de photographies 
+- **rendu inutile** Ajout de couleurs pour le texte directement dans le code HTML pour rendre le CV plus lisible (ex```<h2 style="color: blue;">Informations personnelles</h2>```). Cette mise en forme a été supprimée car elle ne respectait pas les directives du brief.
 
 ## Codage HTML 
 La partie codage de ce projet n'a pas été la plus difficile. 
