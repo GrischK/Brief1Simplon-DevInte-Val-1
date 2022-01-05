@@ -1,0 +1,52 @@
+body{
+    background-color:white;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    margin-left: 70%;
+}
+
+li{
+    padding: 10px;
+}
+
+#home_profile_pic{
+    height: 250px;
+    width: 250px;
+}
+
+#id_block{
+    display: flex;
+    justify-content: center;
+}
+
+#presentation_block{
+    background-color: wheat;
+    height: 300px;
+    width: 80%;
+    margin-top: -7%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+}
+
+#presentation_block h2{
+    position: absolute;
+    left: 60%;
+    color: #44AF69;
+}
+
+#presentation_block h1{
+    position: absolute;
+    margin-left: 1%;
+    color:#137F38;
+}
+
+#header_sentence{
+    position: absolute;
+    margin-left: 1%;
+}
+
