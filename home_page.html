@@ -1,34 +1,43 @@
 <!DOCTYPE html>
 <html lang="fr">
     <head>
-        <title>Portfolio Grischka Gorski</title>
         <meta charset="UTF-8"/>
+        <title>Portfolio Grischka GORSKI</title>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
         <header>
             <nav>
                 <ul>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#contact" id="green_link">Contact</a></li>
                     <li><a href="https://github.com/GrischK">Github</a></li>
                     <li><a href="https://www.linkedin.com/in/grischka-gorski-gg/">Linkedin</a></li>
                 </ul>
             </nav>
         </header>
-            <img src="img/home_page_pic.jpg" alt="photo_grischka">
+            <div id="id_block">
+                <img id="home_profile_pic" src="img/home_page_pic_circle.png" alt="photo_grischka">
+            </div>
             <div id="presentation_block">
-                <h1>Développeur Intégrateur d'Applications Web</h1>
-                <h2>Grischka GORSKI</h2>
-                    <p>Curiosité, polyvalence, adaptabilité... </p>
-                    <blockquote>« Choisis un travail que tu aimes, et tu n’auras pas à travailler un seul jour dans ta vie ». Confucius</blockquote>
+                <div><h1>Développeur Intégrateur d'Applications Web</h1></div>
+                <div class="presentation_column_right"><h2>Grischka GORSKI</h2></div>
+                <div><blockquote>« Choisis un travail que tu aimes, et tu n’auras pas à travailler un seul jour dans ta vie ».<br> Confucius</blockquote></div>
+                <div class="presentation_column_right"><p>Curiosité, polyvalence, adaptabilité... </p></div>
             </div>
             <main>
                 <article id="icons_block">
-                    <h2>Expérience</h2>
-                        <p>+</p>
+                    <div>
+                        <h2>Expérience</h2>
+                            <p>+</p>
+                    </div>
+                    <div>
                     <h2>Formation</h2>
                         <p>+</p>
+                    </div>
+                    <div>
                     <h2>Compétences</h2>
                         <p>+</p>
+                    </div>
                 </article>
                 <section id="about">
                     <h2>A propos</h2>
@@ -44,35 +53,39 @@
                 </section>
                 <article>
                     <h2>Mes projets</h2>
-                    <div class="project_block">
-                        <h3>Pense-bête Git & Linux</h3>
+                    <section id="projects">
+                        <div class="project_block">
+                            <h3>Pense-bête Git & Linux</h3>
                             <p>Création d’un aide-mémoire pour ce qui concerne la configuration et la mise en place de dépôts sur Git et GitHub ainsi que les bases et principales commandes dans Linux.</p>
-                            <a href="https://github.com/GrischK/Pense-bete-Git-et-Linux.git"><img src="img/githublogo.png" alt="logogithub"></a>
-                    </div>
-                    <div class="project_block">
-                        <h3>Refonte de site</h3>
+                            <a href="https://github.com/GrischK/Pense-bete-Git-et-Linux.git"><img src="img/githublogo.png" alt="logogithub" class="github_icon"></a>
+                        </div>
+                        <div class="project_block">
+                            <h3>Refonte de site</h3>
                             <p>Développement d’un site en utilisant les techniques de placement Flex-box et les grilles. Je me base pour cet exercice sur le site Vinted.</p>
-                            <a href="https://github.com/GrischK/Projet-refonte-site---utilisation-des-grilles.git"><img src="img/githublogo.png" alt="logogithub"></a>
-                    </div>
-                    <div class="project_block">
-                        <h3>A venir </h3>
+                            <a href="https://github.com/GrischK/Projet-refonte-site---utilisation-des-grilles.git"><img src="img/githublogo.png" alt="logogithub" class="github_icon"></a>
+                        </div>
+                        <div class="project_block">
+                            <h3>A venir </h3>
                             <p>Projet à venir très prochainement vu que je m’entraine tous les jours...</p>
-                            <img src="img/githublogo.png" alt="logogithub">
-                    </div>
+                            <a href="https://github.com/GrischK/Projet-refonte-site---utilisation-des-grilles.git"><img src="img/githublogo.png" alt="logogithub" class="github_icon"></a>
+                        </div>
+                    </section>
                 </article>
-                <img src="img/photo_profil.png" alt="photo_grischka">
-                <section id="contact">
-                    <h2>Contactez-moi</h2>
-                        <form id="contactform">
-                        <label for="name">Nom prénom:</label><br />
-                        <input type="text" id="name" name="name" /><br />
-                        <label for="email">Adresse e-mail :</label><br />
-                        <input type="text" id="email" name="email" /><br />
-                        <label for="message">Votre message :</label><br />
-                        <textarea id="message" name="message"></textarea><br />
-                        <input type="submit" value="Envoyer" onClick="confirmsend()" />
-                        </form>
-                </section>
+                <article id="contact_article">
+                    <img src="img/photo_profil.png" alt="photo_grischka">
+                    <section id="contact">
+                        <h2>Contactez-moi</h2>
+                            <form id="contactform">
+                            <label for="name">Nom prénom:</label><br />
+                            <input type="text" id="name" name="name" /><br />
+                            <label for="email">Adresse e-mail :</label><br />
+                            <input type="text" id="email" name="email" /><br />
+                            <label for="message">Votre message :</label><br />
+                            <textarea id="message" name="message"></textarea><br />
+                            <input type="submit" value="Envoyer" onClick="confirmsend()" />
+                            </form>
+                    </section>
+                </article>
             </main>            
         <footer>
             <p>Copyright © Grischka Gorski 2021 </p>
