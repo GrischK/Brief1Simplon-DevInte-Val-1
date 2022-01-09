@@ -9,14 +9,16 @@ header{
 
 nav{
     display: flex;
-    justify-content: end;
-}
+    justify-content: space-between;}
 
 ul{
     display: flex;
     list-style: none;
-    margin-left: 70%;
     color: black;
+}
+
+#nav_buttons: nth-last-child{
+    padding-right: 0px;
 }
 
 li{
@@ -26,7 +28,8 @@ li{
 }
 
 a:visited{
-    color:black;
+    text-decoration: none; 
+    decoration: none; 
 }
 
 #green_link{
@@ -40,6 +43,7 @@ a{
 
 a:hover{
     font-weight:bold ;
+    color: #F2BB05;
 }
 
 #welcome_pic{
@@ -58,6 +62,7 @@ a:hover{
     justify-content: start;
     display: flex;
     flex-direction: column;
+    margin-top: 50px;
 }
 
 p, h2, h3, blockquote, label, input{
