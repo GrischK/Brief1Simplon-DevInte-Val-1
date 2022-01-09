@@ -17,7 +17,7 @@ ul{
     color: black;
 }
 
-#nav_buttons: nth-last-child{
+#nav_buttons:nth-last-child{
     padding-right: 0px;
 }
 
