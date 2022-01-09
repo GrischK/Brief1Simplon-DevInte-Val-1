@@ -2,6 +2,16 @@ body{
     background-color:white;
 }
 
+header{
+    width: 1100px;
+    margin: 0 auto 50px;
+}
+
+nav{
+    display: flex;
+    justify-content: end;
+}
+
 ul{
     display: flex;
     list-style: none;
@@ -12,6 +22,7 @@ ul{
 li{
     padding: 10px;
     color: black;
+    font-family: 'Lato', sans-serif;
 }
 
 a:visited{
@@ -19,7 +30,8 @@ a:visited{
 }
 
 #green_link{
-    color: #137F38;
+    color: #124E78;
+    font-weight: bolder;
 }
 
 a{
@@ -30,9 +42,9 @@ a:hover{
     font-weight:bold ;
 }
 
-#home_profile_pic{
-    height: 250px;
-    width: 250px;
+#welcome_pic{
+    height: 400px;
+    width: 400px;
 }
 
 #id_block{
@@ -41,24 +53,48 @@ a:hover{
 }
 
 #presentation_block{
-    background-color: wheat;
-    height: 300px;
-    width: 80%;
-    margin-top: -7%;
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
-    grid-template-rows: 0.2fr 1fr ;
+    height: 200px;
+    width: 800px;
+    justify-content: start;
+    display: flex;
+    flex-direction: column;
+}
+
+p, h2, h3, blockquote, label, input{
+    font-family: 'Lato', sans-serif;
+}
+
+h2, h3, a{
+    color: #124E78;
+}
+
+blockquote{
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+#presentation_block p{
+    margin-top: 0px;
 }
 
 #presentation_block h2{
-    color: #0e5f29;
-    margin-right: 10px;
+    color: #F2BB05;
+    font-family: 'Eczar', serif;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+
+#welcome_article{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
 }
 
 #presentation_block h1{
-    position: absolute;
-    margin-left: 1%;
-    color:#137F38;
+    color:#124E78;
+    font-family: 'Eczar', serif;
+    margin-bottom: 0px;
+    margin-left: 10px;
 }
 
 .presentation_column_right{
@@ -71,12 +107,39 @@ a:hover{
     justify-content: space-between;
 }
 
+#formation_pic{
+    width: 200px;
+}
+
+#skills_pic{
+    width: 200px;
+    height: 200px;
+    transform: rotateY(180deg); 
+}
+
+#skills_pic img{
+max-height: 100%;
+}
+
+#experience_pic{
+    width: 200px;
+    height: 200px;
+}
+
+#experience_pic img{
+    max-height: 100%;
+    transform: rotateY(180deg); 
+    }    
+
 main{
     width: 1100px;
     margin: 0 auto;
 }
 
-#contact{
+#top_pic{
+    max-width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .project_block{
@@ -86,7 +149,8 @@ main{
     height: 300px;
     width: 200px;
     align-items: center;
-    background-color: wheat;
+    border: solid 1px #7CAFC4;
+    box-shadow: 1px 1px 1px #F2BB05;
 }
 
 .github_icon{
@@ -94,16 +158,11 @@ main{
 
 }
 
-#projects{
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 100px;
-}
-
 .project_block p{
     text-align: justify;
     margin-left: 15px;
     margin-right: 15px;
+    height: 150px;
 }
 
 p{
@@ -112,6 +171,8 @@ p{
 
 #contact_article{
     display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
 }
 
 #icons_block div{
@@ -135,10 +196,71 @@ footer{
     width: 100%;
     margin: 0 auto;
     margin-top: 50px;
-    background-color: wheat;
+    background-color: #124E78;
+    color: white;
 }
 
 footer p{
     margin-left: 10px;
     margin-right: 10px;
+}
+
+#contact_pic{
+    height: 300px;
+}
+
+.grid_block1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    height: 200px;
+    justify-content: end;
+    display: grid;
+    align-items: end;
+}
+
+#projects{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 500px);
+    grid-template-rows: repeat(2, 500px);
+    gap: 30px;
+    margin-bottom: 150px;
+}
+
+#project_block1{
+    grid-column: 1/2;
+}
+
+#projects article{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: solid 1px #7CAFC4;
+    box-shadow: 1px 1px 1px #F2BB05;
+}
+
+.grid_pic{
+    width: 400px;
+}
+
+.project_h3_p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    justify-content: start;
+}
+
+#Illustrations_footer{
+    margin-left: 10px;
+}
+
+#Illustrations_footer p{
+    font-size: 10px;
+}
+
+footer h4{
+    font-family: 'Lato', sans-serif;
+    margin-left: 10px;
 }
