@@ -341,3 +341,39 @@ footer a{
 footer a:hover{
     color: #F2BB05;
 }
+
+#presentation_block_page_details{
+    height: auto;
+    width: 800px;
+    justify-content: start;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+#presentation_block_page_details h1 {
+    color: #124E78;
+    font-family: 'Eczar', serif;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+
+#presentation_block_page_details h2 {
+    color: #F2BB05;
+    font-family: 'Eczar', serif;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+
+#skills ul{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+#skills{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
