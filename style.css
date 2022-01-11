@@ -309,3 +309,16 @@ label{
     display: flex;
     flex-direction: column;
 }
+
+footer a{
+    color: white;
+}
+
+#Illustrations_footer p:nth-last-child(1){
+    margin-bottom: 10px;
+}
+
+#Illustrations_footer p{
+    margin-bottom: 1px;
+    margin-top: 1px;
+}
