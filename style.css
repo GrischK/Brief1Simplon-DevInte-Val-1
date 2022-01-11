@@ -29,7 +29,6 @@ li{
 
 a:visited{
     text-decoration: none; 
-    decoration: none; 
 }
 
 #green_link{
@@ -41,7 +40,7 @@ a{
     text-decoration: none;
 }
 
-a:hover{
+nav a:hover{
     font-weight:bold ;
     color: #F2BB05;
 }
@@ -331,4 +330,8 @@ footer a{
 #Illustrations_footer p{
     margin-bottom: 1px;
     margin-top: 1px;
+}
+
+footer a:hover{
+    color: #F2BB05;
 }
