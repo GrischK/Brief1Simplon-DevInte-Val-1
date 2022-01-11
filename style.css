@@ -293,11 +293,21 @@ input, textarea{
 textarea{
     width:400px;
     height: 200px;
+    resize: none;
+}
+
+input:focus, textarea:focus{
+    color: #124E78;
 }
 
 #button{
     margin-top: 10px;
     width: 80px;
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+    color: #124E78;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 label{

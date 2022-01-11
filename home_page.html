@@ -159,11 +159,11 @@
                         </h2>
                             <form id="contactform">
                                 <label for="name">Nom prénom:</label><br />
-                                <input type="text" id="name" name="name" /><br />
+                                <input type="text" id="name" name="name" required="required"/><br />
                                 <label for="email">Adresse e-mail :</label><br />
-                                <input type="text" id="email" name="email" /><br />
+                                <input type="email" id="email" name="email" required="required"/><br />
                                 <label for="message">Votre message :</label><br />
-                                <textarea id="message" name="message"></textarea><br />
+                                <textarea id="message" name="message" required="required"></textarea ><br />
                                 <input type="submit" value="Envoyer" onClick="confirmsend()" id="button"/>
                             </form>
                     </section>
