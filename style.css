@@ -389,7 +389,7 @@ footer a:hover{
 #experience_grid section{
     overflow-wrap: break-word;
     text-align: justify;
-    border: ridge 10px cadetblue;
+    border: ridge 10px #7CAFC4;
     box-shadow: 2px 2px 5px gray;
 }
 
