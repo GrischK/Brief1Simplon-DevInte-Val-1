@@ -462,9 +462,9 @@ footer a:hover{
     margin-top: 0;
 }
 
-#yellow-pencil{
-    height: 50px;
-    margin-top: 20px;
+#Draw{
+    object-fit: contain;
+    height: 80px;
 }
 
 .passions_box{
@@ -501,6 +501,7 @@ footer a:hover{
 
 #run{
     height: 100px;
+    
 }
 
 #passions_section{
@@ -514,3 +515,4 @@ footer a:hover{
     justify-content: space-between;
     padding-left: 0;
 }
+
