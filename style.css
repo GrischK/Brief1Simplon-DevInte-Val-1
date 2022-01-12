@@ -50,6 +50,13 @@ nav a:hover{
     width: 400px;
 }
 
+#welcome_pic_2{
+    height: 400px;
+    width: 400px;
+    transform: rotateY(180deg); 
+}
+
+
 #id_block{
     display: flex;
     justify-content: center;
@@ -453,4 +460,57 @@ footer a:hover{
 
 #diploma{
     margin-top: 0;
+}
+
+#yellow-pencil{
+    height: 50px;
+    margin-top: 20px;
+}
+
+.passions_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img_box{
+    height: 50px;
+}
+
+#book_pic{
+    object-fit: contain;
+    height: 60px;
+    margin-top: 17px;
+}
+
+#dog_pic{
+    height: 80px;
+}
+
+#dog2_pic{
+    height: 80px;
+    transform: rotateY(180deg); 
+}
+
+#ukulele_pic{
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 17px;
+}
+
+#run{
+    height: 100px;
+}
+
+#passions_section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#passions_section ul{
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 0;
 }
