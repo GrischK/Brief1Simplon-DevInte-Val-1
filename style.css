@@ -253,6 +253,11 @@ footer p{
     grid-row: 1/2;
 }
 
+#project_block5{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
 #projects article{
     display: flex;
     flex-direction: column;
@@ -389,8 +394,9 @@ footer a:hover{
     display: grid;
     grid-template-columns: repeat(32, 25px);
     grid-template-rows: repeat(32, 25px);
-    width: 100%;
+    width: 80%;
     height: 800px;
+    margin: 10px auto 0 auto;
 }
 
 #experience_grid section{
@@ -456,6 +462,7 @@ footer a:hover{
 .exp_details p{
     width: 150px;
     font-size: 13px;
+    text-align: center;
 }
 
 #diploma{
