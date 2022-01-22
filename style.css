@@ -580,11 +580,15 @@ footer a:hover{
 #skills_icons ul{
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    margin: 0 auto 0 auto;
+    align-items: end;
 }
 
 #skills_icons{
     width: 50%;
     justify-content: end;
+    display: flex;
 }
 
 #experience_grid>section{
@@ -655,4 +659,69 @@ footer a:hover{
 
 #hidden_block2{
     left: 433px;
+}
+
+.bar_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.skills_bar{
+    height: 8px;
+    width: 350px;
+    border: 1px solid gray;
+    box-shadow: 2px 2px 2px rgb(214, 214, 214);
+    border-radius: 20px;
+}
+
+.progress{
+    height: 100%;
+    width: 50%;
+    background-color: red;
+    border-radius: 20px;
+}
+
+.skills_bar:nth-child(8) .progress{
+    width: 70%;
+    background-color: #D8DCFF;
+}
+
+.skills_bar:nth-child(7) .progress{
+    width: 75%;
+    background-color: #52489C;
+}
+
+.skills_bar:nth-child(6) .progress{
+    width: 90%;
+    background-color: #124E78;
+}
+
+.skills_bar:nth-child(5) .progress{
+    width: 80%;
+    background-color: #3C91E6;
+}
+
+.skills_bar:nth-child(4) .progress{
+    width: 60%;
+    background-color: #44AF69;
+}
+
+.skills_bar:nth-child(3) .progress{
+    width: 5%;
+    background-color: #F2BB05;
+}
+
+.skills_bar:nth-child(2) .progress{
+    width: 60%;
+    background-color: #fc8e10;
+}
+
+.skills_bar:nth-child(1) .progress{
+    width: 80%;
+    background-color: #F8333C;
+}
+
+#skills_icons ul li{
+    text-align: end;
 }
