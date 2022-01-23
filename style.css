@@ -56,6 +56,9 @@ nav a:hover{
     transform: rotateY(180deg); 
 }
 
+#nav_buttons{
+    align-items: center;
+}
 
 #id_block{
     display: flex;
@@ -724,4 +727,12 @@ footer a:hover{
 
 #skills_icons ul li{
     text-align: end;
+}
+
+#page2{
+    width: 20px;
+    height: 20px;
+    border: 2px solid #124E78;
+    border-radius: 50%;
+    text-align: center;
 }
