@@ -401,6 +401,7 @@ footer a:hover{
     flex-direction: column;
     width: 100%;
     margin: 0 auto 0 auto;
+    padding-left: 0px;
 }
 
 #skills{
@@ -640,9 +641,16 @@ footer a:hover{
     justify-content: center;
     align-items: center;
     text-align: center;
-    position: absolute;
     opacity: 0;
     -webkit-transition: opacity 0.5s ease;
+}
+
+#hidden_ul{
+    padding-left: 0px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
 }
 
 .hidden_li:hover{
@@ -663,26 +671,8 @@ footer a:hover{
 #diploma_block{
     display: flex;
     justify-content: space-between;
-}
-
-#hidden_block6{
-    right: 210px;
-}
-
-#hidden_block5{
-    right: 393px;
-}
-
-#hidden_block4{
-    right: 576px;
-}
-
-#hidden_block3{
-    right: 760px;
-}
-
-#hidden_block2{
-    left: 433px;
+    padding-left: 0px;
+    position: relative;
 }
 
 .bar_container{
@@ -783,3 +773,4 @@ footer a:hover{
     cursor: pointer;
     transform: rotateY(360deg);
 }
+
