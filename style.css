@@ -140,11 +140,26 @@ blockquote{
 max-height: 100%;
 }
 
-#experience_pic img{
+#skills_pic_block img{
     max-height: 100%;
-    transform: rotateY(180deg); 
     width: 270px;
     }    
+
+#experiences_pic_block img{
+    max-height: 100%;
+    transform: rotateY(180deg); 
+    width: 270px;    
+}
+
+#education_pic_block img{
+    max-height: 100%;
+    width: 270px;   
+}
+
+#experience_pic img{
+    height: 200px;
+    transform: rotateY(180deg);
+}
 
 main{
     width: 1100px;
@@ -385,6 +400,7 @@ footer a:hover{
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin: 0 auto 0 auto;
 }
 
 #skills{
@@ -740,4 +756,30 @@ footer a:hover{
     border: 2px solid #124E78;
     border-radius: 50%;
     text-align: center;
+}
+
+#projects_grid{
+    margin-top: 100px;
+}
+
+#about{
+    margin-top: 100px;
+}
+
+#experiences{
+    margin-top: 100px;
+}
+
+#education{
+    margin-top: 100px;   
+}
+
+#hobbies{
+    margin-top: 100px;   
+}
+
+.more:hover{
+    transition: 1s ease-in-out;
+    cursor: pointer;
+    transform: rotateY(360deg);
 }
