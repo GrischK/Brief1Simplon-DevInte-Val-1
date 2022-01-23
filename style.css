@@ -691,49 +691,135 @@ footer a:hover{
 
 .progress{
     height: 100%;
-    width: 50%;
-    background-color: red;
     border-radius: 20px;
 }
 
 .skills_bar:nth-child(8) .progress{
     width: 70%;
     background-color: #D8DCFF;
+    animation: marketing_progress_fill 2s forwards;
+}
+
+@keyframes marketing_progress_fill {
+    0%{
+        width: 0%;
+    }
+
+    100%{
+        width: 70%;
+    }
 }
 
 .skills_bar:nth-child(7) .progress{
     width: 75%;
     background-color: #52489C;
+    animation: gestionadministrative_progress_fill 2s forwards;
+}
+
+@keyframes gestionadministrative_progress_fill {
+    0%{
+        width: 0%;
+    }
+
+    100%{
+        width: 75%;
+    }
 }
 
 .skills_bar:nth-child(6) .progress{
     width: 90%;
     background-color: #124E78;
+    animation: relationclients_progress_fill 2s forwards;
+}
+
+@keyframes relationclients_progress_fill {
+    0%{
+        width: 0%;
+    }
+
+    100%{
+        width: 90%;
+    }
 }
 
 .skills_bar:nth-child(5) .progress{
     width: 80%;
     background-color: #3C91E6;
+    animation: ventes_progress_fill 2s forwards;
+}
+
+@keyframes ventes_progress_fill {
+    0%{
+        width: 0%;
+    }
+
+    100%{
+        width: 80%;
+    }
 }
 
 .skills_bar:nth-child(4) .progress{
     width: 60%;
     background-color: #44AF69;
+    animation: gestiondeprojet_progress_fill 2s forwards;
+}
+
+@keyframes gestiondeprojet_progress_fill {
+    0%{
+        width: 0%;
+    }
+
+    100%{
+        width: 60%;
+    }
 }
 
 .skills_bar:nth-child(3) .progress{
     width: 5%;
     background-color: #F2BB05;
+    animation: javascript_progress_fill 2s forwards;
+}
+
+@keyframes javascript_progress_fill {
+    0%{
+        width: 0%;
+    }
+
+    100%{
+        width: 5%;
+    }
 }
 
 .skills_bar:nth-child(2) .progress{
     width: 60%;
     background-color: #fc8e10;
+    animation: css_progress_fill 2s forwards;
+}
+
+@keyframes css_progress_fill {
+    0%{
+        width: 0%;
+    }
+
+    100%{
+        width: 60%;
+    }
 }
 
 .skills_bar:nth-child(1) .progress{
     width: 80%;
     background-color: #F8333C;
+    animation: html_progress_fill 2s forwards;
+}
+
+@keyframes html_progress_fill {
+    0%{
+        width: 0%;
+    }
+
+    100%{
+        width: 80%;
+    }
 }
 
 #skills_icons ul li{
@@ -761,7 +847,7 @@ footer a:hover{
 }
 
 #education{
-    margin-top: 100px;   
+    margin-top: 50px;   
 }
 
 #hobbies{
@@ -775,7 +861,7 @@ footer a:hover{
 }
 
 .github_icon:hover{
-    animation: pulse 600ms infinite;
+    animation: pulse 800ms infinite;
 }
 
 @keyframes pulse {
