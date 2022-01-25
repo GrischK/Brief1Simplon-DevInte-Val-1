@@ -267,7 +267,7 @@ footer p{
     align-items: center;
 }
 
-.grid_block img{
+.desk_pic{
     width: 100%;
 }
 
@@ -786,7 +786,7 @@ footer a:hover{
     }
 
     100%{
-        width: 60%;
+        width: 70%;
     }
 }
 
@@ -802,7 +802,7 @@ footer a:hover{
     }
 
     100%{
-        width: 80%;
+        width: 90%;
     }
 }
 
@@ -868,6 +868,18 @@ footer a:hover{
 	}
 }
 
+.grid_h3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.grid_p{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
 @media screen and (max-width: 1148px){
     body{
         background-color: red;
@@ -887,6 +899,22 @@ footer a:hover{
 
     #welcome_article, #about{
         padding: 10px;
+    }
+
+    #skills_section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+    #skills{
+        margin-bottom: 100px;
+        text-align: center;
+    }
+
+    #skills_icons ul{
+        align-items: baseline;
+        padding: 0px;
     }
 }
 
@@ -908,5 +936,14 @@ footer a:hover{
     }
     .Project__title{
         text-align: center;
+    }
+
+    #skills_icons ul li {
+        text-align: start;
+    }
+
+    #icons_block {
+        flex-direction: column;
+        align-items: center;
     }
 }
