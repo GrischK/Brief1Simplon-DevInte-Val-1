@@ -1,15 +1,19 @@
 body{
     background-color:white;
+    margin: 0px;
 }
 
 header{
-    width: 1100px;
+    width: 75%;
     margin: 0 auto 50px;
+    max-width: 100%;
 }
 
 nav{
+    margin: 10px auto;
     display: flex;
-    justify-content: space-between;}
+    justify-content: space-between;
+}
 
 ul{
     display: flex;
@@ -203,12 +207,14 @@ p{
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
+    margin-top: 100px;
 }
 
 #icons_block div{
     display: flex;
     align-items: center;
     flex-direction: column;
+    width: max-content;
 }
 
 #icons_block p{
@@ -239,55 +245,34 @@ footer p{
     height: 300px;
 }
 
-.grid_block1{
-    grid-column: 1/2;
-    grid-row: 1/2;
-    height: 200px;
-    justify-content: end;
-    display: grid;
-    align-items: end;
-}
-
-#projects{
-    justify-content: center;
+.main_grid_container{
+    width: 100%;
+    height: max-content;
     display: grid;
     grid-template-columns: repeat(2, 500px);
-    grid-template-rows: repeat(2, 500px);
     gap: 30px;
-    margin-bottom: 150px;
+    margin: 0 auto;
 }
 
-#project_block1{
-    grid-column: 2/3;
-    grid-row: 2/3;
-}
-
-#project_block3{
-    grid-column: 1/2;
-    grid-row: 1/2;
-}
-
-#project_block5{
-    grid-column: 2/3;
-    grid-row: 1/2;
-}
-
-#project_block6{
-    grid-column: 1/2;
-    grid-row: 2/3;
-}
-
-#projects article{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+.grid_block{
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
     border: solid 1px #7CAFC4;
     box-shadow: 1px 1px 1px #F2BB05;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.grid_pic{
-    width: 400px;
+.grid_block img{
+    width: 100%;
+}
+
+.grid_block p{
+    padding: 10px;
 }
 
 .project_h3_p{
@@ -297,10 +282,6 @@ footer p{
     width: 80%;
     justify-content: flex-start;
     height: 200px;
-}
-
-.project p{
-    margin-bottom: 0px;
 }
 
 #Illustrations_footer{
@@ -583,7 +564,7 @@ footer a:hover{
 
 #run{
     height: 100px;
-    
+    margin-top: -10%;
 }
 
 #passions_section{
@@ -596,6 +577,7 @@ footer a:hover{
     width: 100%;
     justify-content: space-between;
     padding-left: 0;
+    flex-wrap: wrap;
 }
 
 #skills_section{
@@ -651,6 +633,7 @@ footer a:hover{
     justify-content: space-between;
     position: absolute;
     width: 100%;
+    flex-wrap: wrap;
 }
 
 .hidden_li:hover{
@@ -673,6 +656,7 @@ footer a:hover{
     justify-content: space-between;
     padding-left: 0px;
     position: relative;
+    flex-wrap: wrap;
 }
 
 .bar_container{
@@ -882,4 +866,42 @@ footer a:hover{
 		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
         border-radius: 50%;
 	}
+}
+
+@media screen and (max-width: 1148px){
+    body{
+        background-color: red;
+    }
+
+    main{
+        width: 100%;
+    }
+    #icons_block {
+        justify-content: space-around;
+    }
+
+    footer{
+        width: 100%;
+        max-width: 100%;
+    }
+
+    #welcome_article, #about{
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 1046px){
+    body{
+        background-color: green;
+    }
+    
+    .main_grid_container{
+        grid-template-columns: repeat(1, 500px);
+        margin: 0px auto;
+        width: 100%;
+    }
+
+    .grid_block{
+        margin: 0px auto;
+    }
 }
