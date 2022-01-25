@@ -247,7 +247,7 @@ footer p{
 
 .main_grid_container{
     width: 100%;
-    height: max-content;
+    height: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
@@ -263,7 +263,7 @@ footer p{
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -898,10 +898,15 @@ footer a:hover{
     .main_grid_container{
         grid-template-columns: repeat(1, 1fr);
         margin: 0px auto;
-        width: 50%;
     }
 
     .grid_block{
-        margin: 0 auto;
+        margin: 0px auto;
+    }
+    .main_grid_container{
+        width: 50%;
+    }
+    .Project__title{
+        text-align: center;
     }
 }
